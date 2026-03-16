@@ -124,6 +124,24 @@ A full cleaning pipeline was implemented using CTEs to:
 
 ---
 
+## Dataset
+
+The dataset is hosted externally due to GitHub file size limitations.
+
+[Download Customer Orders Dataset](https://drive.google.com/uc?export=download&id=1v_IzD327P7EQL9lVCKinLtuu1Rfiz-60)
+
+- customer_orders.csv: Raw transactional dataset containing customer details, product information, and order records
+
+---
+
+## Data Accessibility
+
+The dataset exceeds GitHub’s file size limit (100MB), so it is hosted externally.
+
+This reflects real-world workflows where large transactional datasets are stored in cloud systems and accessed for cleaning and analysis.
+
+---
+
 ## Author
 
 Chisom Atulomah
