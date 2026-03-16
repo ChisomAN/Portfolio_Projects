@@ -88,6 +88,33 @@ Contains transactional order data:
 
 ---
 
+## Dataset
+
+The dataset is hosted externally due to GitHub file size limits and multi-file structure.
+
+[Access Restaurant Dataset (Google Drive)](https://drive.google.com/drive/folders/110CPWxf95xFXfe4qeTqDlTVImFt6NQCT)
+
+Contents include:
+
+- menu_items.csv: Menu data including item names, categories, and prices
+- order_details.csv: Transactional order data
+- create_database.sql: SQL script to initialize the database schema
+
+These files are used together to simulate a relational database environment for analysis.
+
+---
+
+## Data Setup Instructions
+
+1. Download all files from the Google Drive folder
+2. Run the `create_database.sql` script to initialize the database
+3. Import `menu_items.csv` and `order_details.csv` into the database
+4. Run the analysis queries provided in this repository
+
+This setup reflects a real-world workflow where structured data is loaded into a relational database before analysis.
+
+---
+
 ## Author
 Chisom Atulomah
 MS Data Science | SQL | Data Analytics | Machine Learning
