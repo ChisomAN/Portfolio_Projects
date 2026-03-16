@@ -100,6 +100,24 @@ Temporary and redundant columns were dropped:
 
 ---
 
+## Dataset
+
+The dataset is hosted externally due to GitHub file size limits.
+
+[Download Movies Dataset](https://drive.google.com/uc?id=1751lHfkDGas8jhjurCd-NktGHZqLhF8b)
+
+- movies_raw.csv: Raw dataset used for cleaning and transformation
+
+---
+
+## Data Accessibility
+
+The dataset exceeds GitHub’s file size limit (100MB), so it is hosted externally.
+
+This reflects real-world data workflows where large datasets are stored in cloud-based systems.
+
+---
+
 ## Author
 
 Chisom Atulomah
