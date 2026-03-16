@@ -123,6 +123,35 @@ Key metrics:
 
 ---
 
+## Dataset
+
+The dataset is hosted externally due to GitHub file size limitations.
+
+[Download E-Commerce User Events Dataset](https://drive.google.com/uc?export=download&id=1rpxXc3HouwjARI1acpQzPcFcrLSy8oU6)
+
+- user_events.csv: Raw event-level dataset containing user interactions across the funnel (page views, cart, checkout, purchase)
+
+---
+
+## Data Accessibility
+
+The dataset exceeds GitHub’s file size limit (100MB), so it is hosted externally.
+
+This reflects real-world workflows where large event-level datasets are stored in cloud systems and accessed for analysis.
+
+---
+
+## Business Context
+
+This dataset simulates user behavior in an e-commerce platform, enabling analysis of:
+
+- Conversion funnel performance
+- Customer journey timing
+- Marketing channel effectiveness
+- Revenue generation efficiency
+
+---
+
 ## Author
 
 Chisom Atulomah
