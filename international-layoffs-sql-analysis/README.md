@@ -42,6 +42,43 @@ Columns included in the dataset:
 
 ---
 
+## Data Cleaning Process
+
+The raw dataset contained several issues including duplicates, inconsistent formatting, missing values, and incorrect data types. A structured cleaning pipeline was implemented.
+
+### 1. Create a Staging Table
+To avoid altering raw data, a staging table was created.
+
+### 2. Remove Duplicate Records
+Duplicates were detected using the ROW_NUMBER window function, then removed from the dataset.
+
+### 3. Standardize Data
+- Several standardization steps were applied:
+- Trim whitespace from company names
+- Replace 'None' or blank values with NULL
+- Standardize industry labels (for example "Crypto*" to "Crypto")
+- Standardize country names
+
+### 4. Fix Data Types
+Columns were converted into proper data types.
+
+### 5. Handle Missing Data
+- Missing industry values were filled using a self join based on company name
+- Rows with no layoff information were removed from the dataset
+
+---
+
+## Exploratory Data Analysis
+
+After cleaning the dataset, SQL queries were used to analyze the layoffs.
+- Largest Layoffs by Company
+- Layoffs by Industry
+- Layoffs by Country
+- Layoffs by Year
+- Company Layoff Rankings by Year: A window function was used to rank companies by layoffs each year.
+
+---
+
 ## Key SQL Techniques Demonstrated
 - Window Functions (ROW_NUMBER, DENSE_RANK)
 - Common Table Expressions (CTEs)
