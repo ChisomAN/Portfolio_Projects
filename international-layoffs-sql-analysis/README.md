@@ -99,6 +99,24 @@ Some insights that can be extracted from the dataset include:
 
 ---
 
+## Dataset
+
+The dataset is hosted externally due to GitHub file size limits.
+
+[Download Layoffs Dataset](https://drive.google.com/uc?id=1x2BTMRuv96d-kQEmQ5WepId9fa4n8LZO)
+
+- layoffs_raw.csv: Raw dataset used for cleaning, transformation, and analysis
+
+---
+
+## Data Accessibility
+
+The dataset exceeds GitHub’s file size limit (100MB), so it is hosted externally.
+
+This reflects real-world data workflows where large datasets are stored in cloud-based systems and accessed for analysis.
+
+---
+
 ## Author
 
 Chisom Atulomah
