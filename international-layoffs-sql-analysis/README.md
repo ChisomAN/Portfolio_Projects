@@ -1,4 +1,4 @@
-# Global Layoffs Data Analysis (COVID-19 Period)
+# International Layoffs Data Analysis (COVID-19 Period)
 
 ## Project Overview
 This project analyzes global company layoffs during the COVID-19 era using SQL. The objective is to clean messy employment data, standardize inconsistent records, and perform exploratory data analysis to identify patterns in layoffs across industries, countries, and company funding stages.
